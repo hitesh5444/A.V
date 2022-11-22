@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Button {
+  margin-left: 172vh;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+.get {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  position: absolute;
+  margin-left: 100px;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 0 10px black;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+
+.get:hover {
+  background-color: rgba(0, 0, 255, 0.336);
+  color: rgb(255, 255, 255);
+}
+
+.get1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  position: absolute;
+  margin-left: 170px;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 0 10px black;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+
+.get1:hover {
+  background-color: rgba(0, 0, 255, 0.336);
+  color: rgb(255, 255, 255);
+}
+
+.Text {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 35%;
+  color: green;
+  /* box-shadow: 0 0 0 10px rgba(0, 128, 0, 0.37); */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  filter: drop-shadow(8px 8px 4px rgb(53, 228, 53));
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
